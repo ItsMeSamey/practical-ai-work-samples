@@ -1,0 +1,150 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [5 0 R 7 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4079 >>
+stream
+BT /F2 9 Tf 0.0314 0.4980 0.5490 rg 1 0 0 1 46 793 Tm (RESEARCH NOTE   /   16 OCTOBER 2026) Tj ET
+BT /F2 25 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 753 Tm (A cheaper token is not) Tj ET
+BT /F2 25 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 723 Tm (always a cheaper task.) Tj ET
+BT /F1 10.5 Tf 0.3490 0.4118 0.4667 rg 1 0 0 1 46 691 Tm (Three reproducible examples show why API price comparisons need a tokenizer, an) Tj ET
+BT /F1 10.5 Tf 0.3490 0.4118 0.4667 rg 1 0 0 1 46 676 Tm (effective date and an output budget. These are accounting scenarios, not model-quality) Tj ET
+BT /F1 10.5 Tf 0.3490 0.4118 0.4667 rg 1 0 0 1 46 661 Tm (rankings.) Tj ET
+BT /F2 10 Tf 0.0314 0.4980 0.5490 rg 1 0 0 1 46 617 Tm (01  TOKENIZER) Tj ET
+BT /F2 11 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 596 Tm (Same input text can become more billable tokens.) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 569 Tm (Sonnet 4.6 reference) Tj ET
+0.8000 0.8431 0.8627 rg 276 566 225.0 13 re f
+BT /F2 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 508 569 Tm ($3.00) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 546 Tm (Sonnet 5.5, same token count) Tj ET
+0.0314 0.4980 0.5490 rg 276 543 150.0 13 re f
+BT /F2 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 508 546 Tm ($2.00) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 523 Tm (Sonnet 5.5, assumed +30% tokens) Tj ET
+0.7216 0.3569 0.1922 rg 276 520 195.0 13 re f
+BT /F2 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 508 523 Tm ($2.60) Tj ET
+BT /F1 9 Tf 0.3490 0.4118 0.4667 rg 1 0 0 1 46 497 Tm (Hypothetical: 1M old input tokens; 33.3% lower unit price, 13.3% lower cost.) Tj ET
+0.8000 0.8431 0.8627 RG 0.7 w 46 481 m 549 481 l S
+BT /F2 10 Tf 0.0314 0.4980 0.5490 rg 1 0 0 1 46 456 Tm (02  EFFECTIVE DATE) Tj ET
+BT /F2 11 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 435 Tm (Gemini 4 Argon: the effective date changes the cost.) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 408 Tm (Argon, through Nov 30) Tj ET
+0.0314 0.4980 0.5490 rg 276 405 112.5 13 re f
+BT /F2 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 508 408 Tm ($4.00) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 383 Tm (Argon, scheduled from Dec 1) Tj ET
+0.7216 0.3569 0.1922 rg 276 380 225.0 13 re f
+BT /F2 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 508 383 Tm ($8.00) Tj ET
+BT /F1 9 Tf 0.3490 0.4118 0.4667 rg 1 0 0 1 46 357 Tm (1M input + 0.2M billable output tokens, aggregated across requests.) Tj ET
+0.8000 0.8431 0.8627 RG 0.7 w 46 341 m 549 341 l S
+BT /F2 10 Tf 0.0314 0.4980 0.5490 rg 1 0 0 1 46 316 Tm (03  OUTPUT MIX) Tj ET
+BT /F2 11 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 295 Tm (Gemini 3.5 Flash-Lite: output can dominate.) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 268 Tm (Flash-Lite, input charge only) Tj ET
+0.8000 0.8431 0.8627 rg 276 265 84.375 13 re f
+BT /F2 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 508 268 Tm ($0.30) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 243 Tm (Flash-Lite, input + output) Tj ET
+0.0314 0.4980 0.5490 rg 276 240 84.375 13 re f
+0.7216 0.3569 0.1922 rg 360.375 240 140.625 13 re f
+BT /F2 9 Tf 0.7216 0.3569 0.1922 rg 1 0 0 1 508 243 Tm ($0.80) Tj ET
+BT /F1 9 Tf 0.3490 0.4118 0.4667 rg 1 0 0 1 46 216 Tm (Same aggregate mix as case 02; output contributes $0.50, or 62.5%.) Tj ET
+BT /F1 8 Tf 0.3490 0.4118 0.4667 rg 1 0 0 1 46 193 Tm (Bar scales differ between cases; compare lengths only within each case.) Tj ET
+0.8000 0.8431 0.8627 RG 0.7 w 46 173 m 549 173 l S
+BT /F2 10 Tf 0.0314 0.4980 0.5490 rg 1 0 0 1 46 157 Tm (EDITORIAL TAKEAWAY) Tj ET
+BT /F1 10.5 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 134 Tm (Ask what stays constant. Equal token counts do not guarantee equal text; current rates) Tj ET
+BT /F1 10.5 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 119 Tm (need not survive a budget period; and input-only prices omit output. Report the exact) Tj ET
+BT /F1 10.5 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 104 Tm (accounting basis alongside any savings claim.) Tj ET
+BT /F1 8 Tf 0.3490 0.4118 0.4667 rg 1 0 0 1 46 40 Tm (Independent AI-produced work sample. No paid API calls or benchmark runs.) Tj ET
+BT /F1 8 Tf 0.3490 0.4118 0.4667 rg 1 0 0 1 525 40 Tm (1 / 2) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 5464 >>
+stream
+BT /F2 9 Tf 0.0314 0.4980 0.5490 rg 1 0 0 1 46 793 Tm (METHOD & SOURCE CHECKS) Tj ET
+BT /F2 23 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 756 Tm (Reproduce the comparison.) Tj ET
+BT /F1 9.5 Tf 0.3490 0.4118 0.4667 rg 1 0 0 1 46 728 Tm (Standard paid API rates, USD per million tokens; observed 16 October 2026.) Tj ET
+0.9333 0.9608 0.9608 rg 46 686 503 24 re f
+BT /F2 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 54 694 Tm (Model) Tj ET
+BT /F2 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 277 694 Tm (Input) Tj ET
+BT /F2 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 335 694 Tm (Output) Tj ET
+BT /F2 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 402 694 Tm (Effective period) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 54 666 Tm (Sonnet 4.6 [1]) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 277 666 Tm (3.00) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 335 666 Tm (15.00) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 402 666 Tm (Current; legacy) Tj ET
+0.8000 0.8431 0.8627 RG 0.7 w 46 657 m 549 657 l S
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 54 643 Tm (Sonnet 5.5 [1]) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 277 643 Tm (2.00) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 335 643 Tm (10.00) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 402 643 Tm (Current) Tj ET
+0.8000 0.8431 0.8627 RG 0.7 w 46 634 m 549 634 l S
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 54 620 Tm (Gemini 4 Argon [2]) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 277 620 Tm (2.00) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 335 620 Tm (10.00) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 402 620 Tm (To 30 Nov 2026) Tj ET
+0.8000 0.8431 0.8627 RG 0.7 w 46 611 m 549 611 l S
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 54 597 Tm (Gemini 4 Argon [2]) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 277 597 Tm (4.00) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 335 597 Tm (20.00) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 402 597 Tm (From 1 Dec; scheduled) Tj ET
+0.8000 0.8431 0.8627 RG 0.7 w 46 588 m 549 588 l S
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 54 574 Tm (Gemini 3.5 Flash-Lite [2]) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 277 574 Tm (0.30) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 335 574 Tm (2.50) Tj ET
+BT /F1 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 402 574 Tm (Current) Tj ET
+0.8000 0.8431 0.8627 RG 0.7 w 46 565 m 549 565 l S
+BT /F2 10 Tf 0.0314 0.4980 0.5490 rg 1 0 0 1 46 527 Tm (WHAT WAS CALCULATED) Tj ET
+BT /F1 10 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 505 Tm (Cost = input millions x input rate + billable output millions x output rate. Quantities are) Tj ET
+BT /F1 10 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 491 Tm (aggregate across requests, never a single oversized request.) Tj ET
+BT /F1 10 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 468 Tm (Case 01 uses an assumed 1.30 input-token multiplier, based on Anthropic's approximate newer-) Tj ET
+BT /F1 10 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 454 Tm (tokenizer comparison. $2 x 1.30 = $2.60 versus $3.00: 13.3% lower. This is a sensitivity) Tj ET
+BT /F1 10 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 440 Tm (example, not a measured corpus result.) Tj ET
+BT /F1 10 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 417 Tm (Case 02 holds billable volumes fixed: $2 + \(0.2 x $10\) = $4; scheduled $4 + \(0.2 x $20\) =) Tj ET
+BT /F1 10 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 403 Tm ($8. Case 03: $0.30 + \(0.2 x $2.50\) = $0.80. Output share: $0.50 / $0.80 = 62.5%.) Tj ET
+BT /F2 10 Tf 0.0314 0.4980 0.5490 rg 1 0 0 1 46 365 Tm (VERIFICATION & LIMITS) Tj ET
+BT /F1 10 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 343 Tm (Rates were checked against provider pricing tables; model pages confirmed the selected) Tj ET
+BT /F1 10 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 329 Tm (current models and Sonnet 4.6's legacy status. A second AI agent checked the source) Tj ET
+BT /F1 10 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 315 Tm (interpretation and arithmetic. The accompanying CSVs and Python script reproduce every) Tj ET
+BT /F1 10 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 301 Tm (plotted value.) Tj ET
+BT /F1 10 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 278 Tm (No live bills, tokenization, latency or quality were measured. Google output counts include) Tj ET
+BT /F1 10 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 264 Tm (thinking tokens. Caching, batch/flex/priority rates, regional premiums, tool charges, taxes) Tj ET
+BT /F1 10 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 250 Tm (and negotiated discounts are excluded. Future prices are the published schedule observed) Tj ET
+BT /F1 10 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 236 Tm (today, not a guarantee.) Tj ET
+BT /F2 10 Tf 0.0314 0.4980 0.5490 rg 1 0 0 1 46 198 Tm (PRIMARY SOURCES) Tj ET
+BT /F2 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 178 Tm ([1] Anthropic model pricing and tokenizer note) Tj ET
+BT /F1 8 Tf 0.3490 0.4118 0.4667 rg 1 0 0 1 46 164 Tm (https://platform.claude.com/docs/en/about-claude/pricing) Tj ET
+BT /F2 9 Tf 0.0784 0.1373 0.1804 rg 1 0 0 1 46 145 Tm ([2] Google Gemini Developer API pricing) Tj ET
+BT /F1 8 Tf 0.3490 0.4118 0.4667 rg 1 0 0 1 46 131 Tm (https://ai.google.dev/gemini-api/docs/pricing) Tj ET
+BT /F1 8 Tf 0.3490 0.4118 0.4667 rg 1 0 0 1 46 67 Tm (Verification session: 15:36-15:42 UTC, 16 October 2026. Provenance in JSON.) Tj ET
+BT /F1 8 Tf 0.3490 0.4118 0.4667 rg 1 0 0 1 46 40 Tm (Prepared by Sanyam Singh's AI assistant. Original analysis; not commissioned.) Tj ET
+BT /F1 8 Tf 0.3490 0.4118 0.4667 rg 1 0 0 1 525 40 Tm (2 / 2) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000266 00000 n 
+0000000402 00000 n 
+0000004533 00000 n 
+0000004669 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+10185
+%%EOF

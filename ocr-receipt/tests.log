@@ -12,6 +12,6 @@ test_valid_and_case_insensitive (test_receipt.ReceiptValidation.test_valid_and_c
 test_wrong_currency_rejected (test_receipt.ReceiptValidation.test_wrong_currency_rejected) ... ok
 
 ----------------------------------------------------------------------
-Ran 12 tests in 0.002s
+Ran 12 tests in 0.003s
 
 OK

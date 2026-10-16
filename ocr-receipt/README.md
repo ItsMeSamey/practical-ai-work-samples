@@ -19,7 +19,7 @@ Generated evidence is under `artifacts/`: the input PNG, OCR text, OCR line boxe
 
 ## Verified result and limits
 
-The included logs record the prior source-directory execution; packaging did not rerun OCR or tests. One generated fixture produced subtotal `12.50`, tax `1.00`, and total `13.50`, matching its known reference. Twelve validation tests cover decimal arithmetic and rejection paths. These results establish a working tutorial example, not real-receipt accuracy, vendor superiority, production readiness, or throughput.
+The included logs record source-directory OCR and test execution after upgrading Pillow to 12.3.0 on 16 October 2026. The published copy preserves that evidence. One generated fixture produced subtotal `12.50`, tax `1.00`, and total `13.50`, matching its known reference. Twelve validation tests cover decimal arithmetic and rejection paths. These results establish a working tutorial example, not real-receipt accuracy, vendor superiority, production readiness, or throughput.
 
 The parser intentionally supports one currency and three explicit line labels. It does not generalize to arbitrary layouts, line-item reconciliation, localized numbers, multi-page documents, credits, tips, discounts, or maliciously crafted receipts. The sum check cannot detect a wrong but internally consistent transcription. Those cases require a broader labeled corpus and separately specified validation rules.
 

@@ -4,7 +4,7 @@
   "packages": {
     "rapidocr-onnxruntime": "1.4.4",
     "onnxruntime": "1.31.0",
-    "pillow": "12.1.1"
+    "pillow": "12.3.0"
   },
   "image_sha256": "2337edffb153d79a732a4d0b6cf78350bceddc48d8c0a361de00ce8d73bcd2df",
   "expected": {

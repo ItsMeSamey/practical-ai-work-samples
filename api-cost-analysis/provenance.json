@@ -1,0 +1,61 @@
+{
+  "task_date": "2026-10-16",
+  "verification_window_utc": {
+    "start": "2026-10-16T15:36:17Z",
+    "end_approximate": "2026-10-16T15:42:00Z",
+    "meaning": "Window containing pricing/model-page cross-checks; not exact HTTP response timestamps. Some initial reads preceded this window."
+  },
+  "time_basis": "clock.curr_time reported 2026-10-16 15:36:17 UTC and 15:41:54 UTC. Remote host independently reported 2026-10-16T15:37:10.818851+00:00; no clock discrepancy observed during these checks.",
+  "source_method": "Normal public web retrieval of official provider documentation. No API account, tokenization, benchmark or billing calls.",
+  "sources": [
+    {
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "supports": [
+        "Sonnet 4.6 input 3 and output 15 USD/MTok",
+        "Sonnet 5.5 input 2 and output 10 USD/MTok",
+        "Approximate 30% more tokens for identical text with newer tokenizer; varies by content"
+      ],
+      "selected_section": "Model pricing and Additional notes"
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+      "supports": [
+        "Current Sonnet model, API prices, context and output limits"
+      ]
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/models/sonnet-5/overview",
+      "supports": [
+        "Sonnet 5 is active legacy; comparison table links current Sonnet 5.5 and legacy 4.6"
+      ]
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "supports": [
+        "Standard paid Argon rates and published 2026-12-01 schedule",
+        "Standard Gemini 3.5 Flash-Lite input 0.30 and output 2.50 USD/MTok",
+        "Output pricing includes thinking tokens"
+      ]
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-4-argon",
+      "supports": [
+        "Stable model; unified context limit; explicit cache unsupported; October 2026 update"
+      ]
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
+      "supports": [
+        "Stable model; per-request context and output limits"
+      ]
+    }
+  ],
+  "independent_review": "Separate AI agent checked sources and arithmetic, then read complete PDF, SVG, script and CSVs. Final content review passed after all five requested fixes; seven Decimal calculations and eight bar widths independently checked. No human review claimed.",
+  "assumptions": [
+    "Aggregates across requests, not one request",
+    "No model-quality equivalence assumed",
+    "Tokenizer case is input-only and assumes 1.30x token count; no corpus measured",
+    "Scheduled future prices may change",
+    "Uncached Standard paid rates; no extra fees, discounts, taxes, region premiums or special tiers"
+  ]
+}
