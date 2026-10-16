@@ -10,3 +10,5 @@ These are synthetic portfolio exercises, not production systems or previous clie
 Each folder documents reproduction commands, actual validation provenance, and limits.
 No new tests were run during this combined packaging step. All inputs are synthetic;
 there are no customer records or credentials. MIT licensed; dependencies retain their licenses.
+
+Read the [retry-recovery article](retry-import/ARTICLE.md) for an executable lost-response example and the limits of its transaction guarantee.
