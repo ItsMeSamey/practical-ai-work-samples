@@ -1,0 +1,23 @@
+{
+  "input": "generated synthetic fixture; no personal or customer data",
+  "python": "3.12.15",
+  "packages": {
+    "rapidocr-onnxruntime": "1.4.4",
+    "onnxruntime": "1.31.0",
+    "pillow": "12.1.1"
+  },
+  "image_sha256": "2337edffb153d79a732a4d0b6cf78350bceddc48d8c0a361de00ce8d73bcd2df",
+  "expected": {
+    "currency": "USD",
+    "subtotal": "12.50",
+    "tax": "1.00",
+    "total": "13.50"
+  },
+  "observed": {
+    "currency": "USD",
+    "subtotal": "12.50",
+    "tax": "1.00",
+    "total": "13.50"
+  },
+  "claim": "one synthetic fixture passed; no real-world accuracy or throughput claim"
+}

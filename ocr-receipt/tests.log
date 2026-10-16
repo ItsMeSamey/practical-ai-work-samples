@@ -1,0 +1,17 @@
+test_ambiguous_digit_is_not_silently_repaired (test_receipt.ReceiptValidation.test_ambiguous_digit_is_not_silently_repaired) ... ok
+test_conflicting_currency_rejected (test_receipt.ReceiptValidation.test_conflicting_currency_rejected) ... ok
+test_duplicate_total_rejected (test_receipt.ReceiptValidation.test_duplicate_total_rejected) ... ok
+test_exact_decimal_arithmetic (test_receipt.ReceiptValidation.test_exact_decimal_arithmetic) ... ok
+test_extra_currency_suffix_rejected (test_receipt.ReceiptValidation.test_extra_currency_suffix_rejected) ... ok
+test_inconsistent_sum_rejected (test_receipt.ReceiptValidation.test_inconsistent_sum_rejected) ... ok
+test_malformed_duplicate_is_not_ignored (test_receipt.ReceiptValidation.test_malformed_duplicate_is_not_ignored) ... ok
+test_missing_currency_rejected (test_receipt.ReceiptValidation.test_missing_currency_rejected) ... ok
+test_missing_total_rejected (test_receipt.ReceiptValidation.test_missing_total_rejected) ... ok
+test_subtotal_cannot_satisfy_total (test_receipt.ReceiptValidation.test_subtotal_cannot_satisfy_total) ... ok
+test_valid_and_case_insensitive (test_receipt.ReceiptValidation.test_valid_and_case_insensitive) ... ok
+test_wrong_currency_rejected (test_receipt.ReceiptValidation.test_wrong_currency_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.002s
+
+OK
