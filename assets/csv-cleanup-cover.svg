@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900"
+     role="img" aria-labelledby="title desc">
+<title id="title">CSV cleanup</title>
+<desc id="desc">Illustration of an abstract input table, a validation check, and a tidy table.</desc>
+<rect width="1200" height="900" fill="#F6F5F0"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="72" y="140" font-size="76" font-weight="700" fill="#202620">CSV cleanup</text>
+<text x="76" y="194" font-size="28" fill="#697268">Python · validation</text>
+<rect x="72" y="338" width="350" height="310" rx="24" fill="#EEEFE9" stroke="#D9DDD5" stroke-width="2"/>
+<rect x="96" y="382" width="302" height="220" rx="12" fill="#FCFCF8"/>
+<path d="M108 382h278q12 0 12 12v32h-302v-32q0-12 12-12Z" fill="#E1E4DC"/>
+<path d="M196.67 382v220" stroke="#D9DDD5" stroke-width="1.5"/>
+<path d="M297.33 382v220" stroke="#D9DDD5" stroke-width="1.5"/>
+<path d="M96 426h302" stroke="#D9DDD5" stroke-width="1.5"/>
+<path d="M96 470h302" stroke="#D9DDD5" stroke-width="1.5"/>
+<path d="M96 514h302" stroke="#D9DDD5" stroke-width="1.5"/>
+<path d="M96 558h302" stroke="#D9DDD5" stroke-width="1.5"/>
+<rect x="113.00" y="400" width="54" height="8" rx="4" fill="#7E8979"/>
+<rect x="213.67" y="400" width="58" height="8" rx="4" fill="#7E8979"/>
+<rect x="314.33" y="400" width="42" height="8" rx="4" fill="#7E8979"/>
+<rect x="118.00" y="444" width="61" height="8" rx="4" fill="#A9B1A5"/>
+<rect x="213.67" y="444" width="45" height="8" rx="4" fill="#A9B1A5"/>
+<rect x="310.33" y="444" width="54" height="8" rx="4" fill="#A9B1A5"/>
+<rect x="113.00" y="488" width="45" height="8" rx="4" fill="#A9B1A5"/>
+<rect x="209.67" y="488" width="54" height="8" rx="4" fill="#A9B1A5"/>
+<rect x="319.33" y="488" width="36" height="8" rx="4" fill="#A9B1A5"/>
+<rect x="109.00" y="532" width="54" height="8" rx="4" fill="#A9B1A5"/>
+<rect x="218.67" y="532" width="36" height="8" rx="4" fill="#A9B1A5"/>
+<rect x="314.33" y="532" width="61" height="8" rx="4" fill="#A9B1A5"/>
+<rect x="118.00" y="576" width="36" height="8" rx="4" fill="#A9B1A5"/>
+<rect x="213.67" y="576" width="61" height="8" rx="4" fill="#A9B1A5"/>
+<rect x="310.33" y="576" width="45" height="8" rx="4" fill="#A9B1A5"/>
+<rect x="96" y="382" width="302" height="220" rx="12" fill="none" stroke="#D9DDD5" stroke-width="1.5"/>
+<rect x="778" y="338" width="350" height="310" rx="24" fill="#EEEFE9" stroke="#D9DDD5" stroke-width="2"/>
+<rect x="802" y="382" width="302" height="220" rx="12" fill="#FCFCF8"/>
+<path d="M814 382h278q12 0 12 12v32h-302v-32q0-12 12-12Z" fill="#DBE7DD"/>
+<path d="M902.67 382v220" stroke="#D9DDD5" stroke-width="1.5"/>
+<path d="M1003.33 382v220" stroke="#D9DDD5" stroke-width="1.5"/>
+<path d="M802 426h302" stroke="#D9DDD5" stroke-width="1.5"/>
+<path d="M802 470h302" stroke="#D9DDD5" stroke-width="1.5"/>
+<path d="M802 514h302" stroke="#D9DDD5" stroke-width="1.5"/>
+<path d="M802 558h302" stroke="#D9DDD5" stroke-width="1.5"/>
+<rect x="819.00" y="400" width="54" height="8" rx="4" fill="#284D3A"/>
+<rect x="919.67" y="400" width="58" height="8" rx="4" fill="#284D3A"/>
+<rect x="1020.33" y="400" width="42" height="8" rx="4" fill="#284D3A"/>
+<rect x="819.00" y="444" width="54" height="8" rx="4" fill="#71917B"/>
+<rect x="919.67" y="444" width="58" height="8" rx="4" fill="#71917B"/>
+<rect x="1020.33" y="444" width="42" height="8" rx="4" fill="#71917B"/>
+<rect x="819.00" y="488" width="54" height="8" rx="4" fill="#71917B"/>
+<rect x="919.67" y="488" width="58" height="8" rx="4" fill="#71917B"/>
+<rect x="1020.33" y="488" width="42" height="8" rx="4" fill="#71917B"/>
+<rect x="819.00" y="532" width="54" height="8" rx="4" fill="#71917B"/>
+<rect x="919.67" y="532" width="58" height="8" rx="4" fill="#71917B"/>
+<rect x="1020.33" y="532" width="42" height="8" rx="4" fill="#71917B"/>
+<rect x="819.00" y="576" width="54" height="8" rx="4" fill="#71917B"/>
+<rect x="919.67" y="576" width="58" height="8" rx="4" fill="#71917B"/>
+<rect x="1020.33" y="576" width="42" height="8" rx="4" fill="#71917B"/>
+<rect x="802" y="382" width="302" height="220" rx="12" fill="none" stroke="#D9DDD5" stroke-width="1.5"/>
+<g fill="none" stroke="#8D9B8D" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M448 493h57m-10-10 10 10-10 10"/>
+<path d="M695 493h57m-10-10 10 10-10 10"/>
+</g>
+<circle cx="600" cy="493" r="62" fill="#284D3A"/>
+<path d="m573 493 18 19 36-42" fill="none" stroke="#F6F5F0" stroke-width="9"
+      stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1128" y="826" text-anchor="end" font-size="20" fill="#697268">Illustration</text>
+</g>
+</svg>
